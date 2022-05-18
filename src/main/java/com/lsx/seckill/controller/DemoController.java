@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/demo")
 public class DemoController {
 
-
     @RequestMapping("/hello")
     public String hello(Model model){
         model.addAttribute("name","lsx");
