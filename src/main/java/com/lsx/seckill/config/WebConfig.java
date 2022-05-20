@@ -1,5 +1,6 @@
 package com.lsx.seckill.config;
 
+import com.lsx.seckill.service.IGoodsService;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +22,6 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Autowired
     private UserArgumentResolver userArgumentResolver;
-
 
     @Override
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
