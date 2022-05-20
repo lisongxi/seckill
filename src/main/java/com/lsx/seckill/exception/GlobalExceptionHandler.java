@@ -12,6 +12,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public RespBean ExceptionHandler(Exception e){
+        System.out.println(e);
         if(e instanceof GlobalException){
             GlobalException ex = (GlobalException) e;
             return RespBean.error(ex.getRespBeanEnum());

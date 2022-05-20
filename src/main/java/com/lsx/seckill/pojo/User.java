@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName
+@TableName("user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;

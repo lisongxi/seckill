@@ -2,6 +2,7 @@ package com.lsx.seckill.config;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.lsx.seckill.pojo.User;
+import com.lsx.seckill.service.IGoodsService;
 import com.lsx.seckill.service.IUserService;
 import com.lsx.seckill.utils.CookieUtil;
 import org.springframework.beans.factory.annotation.Autowired;
