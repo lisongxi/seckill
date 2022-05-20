@@ -16,7 +16,7 @@ import java.util.Date;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName("order")
+@TableName("t_order")
 public class Order implements Serializable {
 
     private static final long serialVersionUID = 1L;
