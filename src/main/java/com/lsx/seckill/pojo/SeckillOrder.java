@@ -14,7 +14,7 @@ import java.io.Serializable;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName("seckill_order")
+@TableName("t_seckill_order")
 public class SeckillOrder implements Serializable {
     private static final long serialVersionUID = 1L;
 

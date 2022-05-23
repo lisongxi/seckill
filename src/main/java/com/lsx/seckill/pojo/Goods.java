@@ -15,7 +15,7 @@ import java.math.BigDecimal;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName("goods")
+@TableName("t_goods")
 public class Goods implements Serializable {
 
     private static final long serialVersionUID = 1L;

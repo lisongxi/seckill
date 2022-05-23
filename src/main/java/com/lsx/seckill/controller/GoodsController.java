@@ -19,6 +19,13 @@ import java.util.Date;
 @Slf4j
 public class GoodsController {
 
+    /**
+     * Windows优化前QPS：1754
+     * Linux优化前QPS：
+     * @author LiSongXi
+     * @date
+     */
+
     @Autowired
     private IGoodsService goodsService;
 

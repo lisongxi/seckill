@@ -28,8 +28,8 @@
             sg.`stock_count`,
             sg.`start_date`,
             sg.`end_date`
-        FROM goods g
-                 LEFT JOIN seckill_goods AS sg ON g.id=sg.id
+        FROM t_goods g
+                 LEFT JOIN t_seckill_goods AS sg ON g.id=sg.id
     </select>
 
     <!--    获取商品详情-->
@@ -45,8 +45,8 @@
             sg.`stock_count`,
             sg.`start_date`,
             sg.`end_date`
-        FROM goods g
-                 LEFT JOIN seckill_goods AS sg ON g.id=sg.id
+        FROM t_goods g
+                 LEFT JOIN t_seckill_goods AS sg ON g.id=sg.id
         where g.id = #{goodsId}
     </select>
 
